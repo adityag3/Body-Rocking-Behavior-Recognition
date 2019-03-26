@@ -85,7 +85,7 @@ def get_precision(true_positive, predict_positive):
         return true_positive / predict_positive
 
 if __name__ == '__main__':
-    label_path = 'sample/'
+    label_path = 'submission/sample/'
     predict_file_name = 'prediction.txt'
 
     eval_obj = Eval()
