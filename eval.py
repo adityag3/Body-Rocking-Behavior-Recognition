@@ -90,7 +90,7 @@ if __name__ == '__main__':
 
     eval_obj = Eval()
 
-    session_list = [1, 5]
+    session_list = [2, 3, 15, 16]
     for session_id in session_list:
         cur_label_path = os.path.join(label_path, 'Session{:02d}'.format(session_id), 'detection.txt')
         cur_predict_path = os.path.join(label_path, 'Session{:02d}'.format(session_id), predict_file_name)
